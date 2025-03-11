@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;      /*directives used within a CSS file, usually within a styles.css or similar file, to inject Tailwind CSS styles based on the specified categories.*/
+@tailwind utilities;
+
+@layer components{
+    .editor-btn {
+        @apply flex justify-center items-center text-slate-700 rounded-lg w-8 aspect-square;
+    }
+
+    .active-editor-btn{
+        @apply text-slate-800 bg-slate-200;
+    }
+}
